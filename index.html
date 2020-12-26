@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Kuh</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+
+<body>
+	<div id="particleContainer">
+	</div>
+	
+	<div id="container">
+		<div id="toggleContainer">
+			<div id="audio-player">
+				<i class="fas fa-play-circle audio-icon" id="play-icon" ></i>
+				<i class="fas fa-pause-circle audio-icon" id="pause-icon"></i>
+			</div>
+			 
+			<label>Carousel</label>
+			<div id="toggle">
+			 <div id="outer3">
+					<div id="slider3"></div>
+			 </div>
+			</div>
+			<label>Tiles</label>
+		</div>
+		<div id="galleryView">
+			<div id="galleryContainer">
+				 <div id="leftView"></div>
+				 <button id="navLeft" class="navBtns"><i class="fas fa-arrow-left fa-3x"></i></button>
+				 <a id="linkTag">
+						<div id="mainView"></div>
+				 </a>
+				 <div id="rightView"></div>
+				 <button id="navRight" class="navBtns"><i class="fas fa-arrow-right fa-3x"></i></button>
+			</div>
+		</div>
+		<div id="tilesView">
+			<div id="tilesContainer"></div>
+		</div>
+		<audio id="song_container" controls>
+		Your browser does not support the audio element.
+		</audio> 
+	</div>
+
+
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
+	<script src="particles.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js" integrity="sha512-k2GFCTbp9rQU412BStrcD/rlwv1PYec9SNrkbQlo6RZCf75l6KcC3UwDY8H5n5hl4v77IDtIPwOk9Dqjs/mMBQ==" crossorigin="anonymous"></script>
+	<script src="main.js"></script>
+</body>
+</html>
